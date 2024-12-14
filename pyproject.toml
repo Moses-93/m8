@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "m8"
+package-mode = false
+version = "0.1.0"
+description = ""
+authors = ["Moses-93 <moieseenko2001@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+mongoengine = "^0.29.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
